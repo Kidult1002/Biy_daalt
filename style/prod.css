@@ -1,0 +1,117 @@
+
+
+.zar_text{
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background-color: #f5f5f6;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.zar {
+  font-size:20px;
+  font: Arial, Helvetica, sans-serif;
+
+}
+
+.products {
+  display: flex;
+  height: 300px;
+  /*background-color: rgb(208, 145, 73); */
+  background-color: white;
+  align-items: center;
+  justify-content: center; /* Center the content vertically */
+}
+
+.product-list {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Display three products per row */
+  gap: 20px; /* Add some gap between products */
+  justify-content: center; /* Center the products horizontally */
+}
+
+.product-item {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Adjust the grid rows */
+  background-color: blanchedalmond;
+  border: 3px solid #ccc;
+  width: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.product-info {
+  display: block;
+  height: 280px;
+  width: 200px;
+}
+
+.product-image {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.product-item {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-color: blanchedalmond;
+  border: 3px solid #ccc;
+  width: 200px; 
+
+}
+
+.product-info {
+  display: block;
+  height: 280px;
+  width: 200px;
+ 
+}
+
+.product-description {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #333;
+
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.price {
+  margin-left: 10%
+
+}
+.price-amount {
+  font-weight: bold;
+}
+
+.tugrik {
+  font-size: 0.8em;
+  vertical-align: top;
+}
+
+.price-and-cart {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.cart {
+margin-right: 10%;
+}
+
+
+  
+
+
