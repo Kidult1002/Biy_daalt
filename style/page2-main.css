@@ -10,7 +10,7 @@ body {
   padding-left: 20px;
   padding-right: 24px;
   background-color: white;
-  height: 1500;
+  height: auto;
 }
 .website_wrapper{
   display:inline-block;
@@ -33,6 +33,7 @@ body {
   border-width: 3px;
   border-color: brown;
   margin: 0 auto;
+  height: auto;
 }
 
 
@@ -84,7 +85,6 @@ footer{
 .navigation a {
   font-size: 18px;
 }
-
 
 .my_account {
   display: flex;
