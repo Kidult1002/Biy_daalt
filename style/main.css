@@ -61,7 +61,7 @@ body {
 footer{
   background-color: gray;
   
-  margin-right: 0px;
+  margin-top: 20px;
 }
 
 .footer-cont{
@@ -89,6 +89,7 @@ footer{
 .my_account {
   display: flex;
   align-items: center;
+  align-self: right;
 }
 
 .account-link {
