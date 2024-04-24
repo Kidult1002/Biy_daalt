@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>
+    CloudNine
+  </title>
+  <link rel="stylesheet" href="style/sags2.css">
+  <link rel="stylesheet" href="style\header.css">
+  <link rel="stylesheet" href="style/page2-main.css">
+
+</head>
+
+<body>
+    <form method="get" action="hurgelt.html" >
+
+      <header>
+        <div class="header_main">
+  
+          <h1>CloudNine</h1>
+  
+          <div class="search-container">
+  
+            <input type="text" class="search-input" placeholder=" Хайх...">
+  
+          </div>
+          <div class="pic">
+            <a href="cart.html" title="Profile" class="cart">
+            <img class="cart" src="style/images/cart.png" id="cartt" name="cartt">
+            
+            </a>
+          </div>
+          <div class="my_account">
+            <a href="minii-burtgel.html" title="Profile" class="account-link">
+              <img class="cart" src="style/images/account.png" id="cartt" name="cartt">
+              <span class="account"><a href="new-sign-in.html"> Нэвтрэх </a>/<a href="new-signup.html"> Бүртгүүлэх</a></span>
+                    
+            </a>
+          </div>
+          
+        </div>
+        <div class="navigation">
+          <nav class="navbar">
+            <ul>
+              <li><a href="page2.html">Бүгд</a></li>
+              <li><a href="tsewerlegee.html">Цэвэрлэгээ </a></li>
+              <li><a href="tos.html">Тос</a></li>
+              <li><a href="mask.html">Маск</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+<main>
+    <div class="notification-bar"><h2>Сагс</h2></div>
+    <div class="tabs">
+        <div class="tab1">Бүтээгдэхүүн</div>
+        <div class="tab2">Үнэ</div>
+        <div class="tab3">Тоо ширхэг</div>
+        <div class="tab4">Нийт үнэ</div>
+      </div>
+      
+
+      <div class="cart-item">
+        
+        <div class="products">
+            <div class="product1">
+                <img class = "proddd" src="style/images/61DqXB_4CkL.jpg" id="pro" name="pro">SOME BY MI</div>
+            <div class="product2">38,900</div>
+
+            <div class="quantity-selector">
+                <div class="total-quantity">
+                    <span id="totalQuantity" name="totalQuantity"></span>
+                  </div>
+                  <button onclick="changeQuantity(-1, event)">-</button>
+                <input type="number" id="quantity" value="1" min="0">
+                <button onclick="changeQuantity(1, event)">+</button>
+              </div>
+            <div class="total-price">
+                 <span id="totalPrice">38'900</span>₮
+              </div>
+        
+        </div>
+       
+        <div class="sidebar">
+            <h4>Сагсны дүн</h4>
+                
+            <div class="total-price">
+               Нийт үнэ: <span id="totalPrice">38,900</span>₮
+                   </div>
+                <div class="hurgelt">
+                    Хүргэлт:<span id="DeliveryPrice" name="DeliveryPrice">5000</span>
+                <div class="all-unit">
+                    Нийт дүн:<span id="LastPrice" name="LastPrice">43'900</span></div>
+                   
+                </div>
+                <div class="nothing">
+                    <button class="order-btn">Захиалга баталгаажуулах   </button>
+
+                </div>
+                </div>
+           
+                
+               
+             
+       
+        
+
+</main>
+
+
+<footer>
+  <div class="footer-cont">
+    <div>
+      <h3>CloudNine</h3>
+    </div>
+    <div class="contact">
+      <p id="bot">
+        Холбоо барих:
+      </p>
+      <ul>
+        <li>7755-2323</li>
+        <li>info@cloudnine.mn</li>
+        <li>Улаанбаатар, Хан-Уул дүүрэг Рэжис Плэйс таур,302 тоот</li>
+        
+        
+      </ul>
+    </div>
+    <div class="need ">
+      <li> <a href="advice.html">Зөвөлгөө</a></li>
+      <li><a href="FAQ.html">Түгээмэл асуулт хариулт</a></li>
+    </div>
+  </div>
+  
+
+  </div>
+</footer>
+
+</form>    
+<script src="sags.js"></script>
+</body>
+
+
+</html>

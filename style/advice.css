@@ -1,0 +1,49 @@
+.main {
+    width: 70%;
+    margin-top: 10px;
+}
+.textbox {
+    border: 2px solid;
+    border-radius: 5px;
+    height: 150px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.textbox img {
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border: 5px;
+    border-radius: 5px;
+}
+.aside {
+    padding-top: 70px;
+    width: 28%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.event {
+    height: 80px;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    
+}
+.event img{
+    border-radius: 5px;
+    width: 120px;
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.title {
+    padding-top: 5px;
+}
+
+.date {
+    font-size: 10px;
+    color: rgb(59, 58, 58);
+}

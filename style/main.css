@@ -6,11 +6,11 @@ p {
 
 body {
   margin: 0;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-left: 20px;
   padding-right: 24px;
   background-color: white;
-  height: 1500;
+  height: auto;
 }
 .website_wrapper{
   display:inline-block;
@@ -25,7 +25,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 5px 20px;
-  background-color: white
+  background-color: white;
+  padding-bottom: 0px;
+  height: 60px;
+  background-color: #f5f5f6;
+  border-radius: 20px;
+
 }
 
 .container {
@@ -40,7 +45,7 @@ body {
   display: flex;
 }
 .cover{
-  margin-top: 5%;;
+  margin-top: 2%;;
   width: 100%;
   height: auto;
   display: block;
@@ -58,23 +63,27 @@ body {
   align-items: center;
 }
 
-footer{
+.footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: gray;
-  
+  width: auto;
   margin-top: 20px;
+  margin-right: 0px;
 }
 
 .footer-cont{
-  display: flex;
- 
-  margin-right: 0px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   background-color: #030303;
   color:white;
   padding: 10px;
 }
 .contact {
-  margin-left: 100px;
+  margin-right: 0px;
 }
 
 .my_account a {

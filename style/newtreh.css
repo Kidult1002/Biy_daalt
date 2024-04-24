@@ -1,0 +1,108 @@
+
+.h-heseg {
+display: flex;
+border-width: 3px;
+border-color: brown;
+margin-top: 40px;
+justify-content: center;
+
+}
+
+.h-heseg .heseg-neg,
+.h-heseg .heseg-hoyr {
+display: inline-block;
+vertical-align: top;
+width: 40%; /* Adjust the width as needed */
+margin: 15px; /* Add margin between the two divs */
+align-items: center;
+justify-content: center;
+}
+
+.h-heseg .heseg-neg{
+border-width: 4px;
+border-color: rgb(154, 37, 37);
+border-style: bold;
+background-color: rgb(228, 228, 228);
+border-radius: 4%;
+padding: 50px;
+padding-bottom: 0px;
+
+
+}
+
+.h-heseg .heseg-hoyr{
+
+background-color: rgb(228, 228, 228);
+margin-right: 0;
+
+padding: 50px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 4%;
+border-width: 4px;
+border-style: bold;
+margin-top: 5%;
+height: 200px;
+}
+
+.h-heseg .heseg-neg input,
+.h-heseg .heseg-hoyr input {
+width: 100%; 
+box-sizing: border-box; 
+}
+.h-heseg .heseg-neg .p-checkbox input {
+width: 5%;
+}
+
+.wd-login-title {
+margin-left: 35%;
+margin-top: 2%;
+margin-bottom: 5%  ;
+}
+
+.login-info {
+margin-left: 15%;
+margin-bottom: 6%;
+}
+
+.newtrehru-shilj{
+
+margin-left: 38%;
+}
+button {
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 35%;
+margin-top: 5%;
+}
+.link-button {
+background-color: #007bff;
+color: white;
+}
+
+.heseg-neg input {
+width: 20%;
+box-sizing: border-box;
+}
+
+.navbar a:hover{
+  background-color:  hsl(0, 0%, 50%);
+
+}
+
+.policy-text{
+margin-top: 2%;
+}
+.form-row {
+margin-bottom: 10%;
+}
+p {
+font-family: Roboto, Arial;
+margin-top: 0;
+margin-bottom: 20px;
+}

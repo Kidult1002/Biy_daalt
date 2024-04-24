@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>
+    CloudNine
+  </title>
+  <link rel="stylesheet" href="style\header.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/prod.css">
+
+<style>
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+
+form {
+  margin-bottom: 20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Column layout */
+.col-12 {
+  width: 100%;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+
+/* Title styling */
+h2 {
+  margin-top: 0;
+}
+
+/* Divider styling */
+.wd-login-divider {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wd-login-divider span {
+  background-color: #ccc;
+  padding: 0 10px;
+}
+
+/* Additional styling for specific elements */
+#customer_login {
+  margin-top: 20px;
+}
+
+.col-register-text {
+  text-align: center;
+}
+
+.registration-info {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+</style>
+  
+</head>
+
+<body>
+
+  <div class="website_wrapper">
+    <header>
+      <div class="header_main">
+
+        <h1 class="logo">CloudNine</h1>
+
+        <div class="search-container">
+
+          <input type="text" class="search-input" placeholder=" Хайх...">
+
+        </div>
+        <div class="pic">
+          <img class="cart" src="style/images/cart.png" id="cartt" name="cartt">
+
+        </div>
+        <div class="my_account">
+          <a href="" title="Profile" class="account-link">
+            <img class="cart" src="style/images/account.png" id="cartt" name="cartt">
+            <span class="account"><a href="#"> Нэвтрэх </a>/<a href="#"> Бүртгүүлэх</a></span>
+                  
+          </a>
+        </div>
+        
+      </div>
+      <div class="navigation">
+        <nav class="navbar">
+          <ul>
+            <li><a href="">Бүгд</a></li>
+            <li><a href="">Цэвэрлэгээ </a></li>
+            <li><a href="">Тос</a></li>
+            <li><a href="">Маск</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="container">
+
+      <div class="row" id="customer_login">
+
+        <div class="col-login">
+      
+      
+          <h2 class="wd-login-title">Нэвтрэх</h2>
+      
+                <form method="post" class="form-login" action="https://cloudnine.mn/my-account/?action=login">
+      
+              
+              
+              <p class="mail-for-login">
+                <label for="username">И-мэйл хаяг&nbsp;<span class="required">*</span></label>
+                <input type="text" class="username" name="username" id="username" value="">				</p>
+              <p class="mail-password">
+                <label for="password">Нууц үг&nbsp;<span class="required">*</span></label>
+                <span class="password-input"><input class="Input-pass" type="password" name="password" id="password" autocomplete="current-password"></span>
+              </p>
+      
+              
+              <p class="form-row">
+                <input type="hidden" id="code_nuutslah" value="d7f4bf78bf"><input type="hidden" name="_wp_http_referer" value="/my-account/?action=register">										<button type="submit" class="login-button" name="login" value="Нэвтрэх">Нэвтрэх</button>
+              </p>
+      
+              <p class="login-form-footer">
+                <a href="https://cloudnine.mn/my-account/lost-password/" class="lost_password">Нууц үгээ мартсан уу?</a>
+                <label class="rememberme-part">
+                  <input class="input-checkbox" name="rememberme" type="checkbox" value="forever" title="Намайг сана" aria-label="Намайг сана"> <span>Намайг сана</span>
+                </label>
+              </p>
+      
+              
+                    </form>
+      
+              
+      
+        </div>
+      
+        <div class="col-register">
+      
+          <h2 class="wd-login-title">Бүртгүүлэх</h2>
+      
+          <form method="post" action="https://cloudnine.mn/my-account/?action=register" class="form-register">
+      
+            
+            
+            <p class="mail-for-login">
+              <label for="username">И-мэйл хаяг&nbsp;<span class="required">*</span></label>
+              <input type="text" class="username" name="username" id="username" value="">				</p>
+            <p class="mail-password">
+              <label for="password">Нууц үг&nbsp;<span class="required">*</span></label>
+              <span class="password-input"><input class="Input-pass" type="password" name="password" id="password" autocomplete="current-password"></span>
+            </p>
+    
+
+            
+            <!-- Spam Trap -->
+            <div style="left: -999em; position: absolute;"><label for="trap">Anti-spam</label><input type="text" name="email_2" id="trap" tabindex="-1"></div>
+      
+            <div class="woocommerce-privacy-policy-text"><p>Энд бүртгүүлсэн таны мэдээлэл зөвхөн захиалга хийхэд ашиглагдана, <a href="https://cloudnine.mn/privacy-policy/" class="woocommerce-privacy-policy-link" target="_blank">Нууцлалын бодлого</a>.</p>
+      </div><!-- Mailchimp for WordPress v4.9.11 - https://www.mc4wp.com/ --><input type="hidden" name="_mc4wp_subscribe_wp-registration-form" value="0"><p class="mc4wp-checkbox mc4wp-checkbox-wp-registration-form "><label><input type="checkbox" name="_mc4wp_subscribe_wp-registration-form" value="1"><span>Намайг и-мэйл мэдээнд бүртгүүл!</span></label></p><!-- / Mailchimp for WordPress -->			
+            <p class="woocommerce-form-row form-row">
+              <input type="hidden" id="_wpnonce" name="_wpnonce" value="a2a90c7e8a"><input type="hidden" name="_wp_http_referer" value="/my-account/?action=register">				<button type="submit" class="woocommerce-Button button" name="register" value="Бүртгүүлэх">Бүртгүүлэх</button>
+            </p>
+      
+            
+          </form>
+      
+        </div>
+      
+            <div class="col-12 col-md-6 col-register-text">
+      
+            <p class="title wd-login-divider "><span>Or</span></p>
+      
+            
+                    <h2 class="wd-login-title">НЭВТРЭХ</h2>
+            
+                    <div class="login-info">Та бүртгэлтэй бол өөрийн эрхээр нэвтэрнэ үү.</div>
+            
+                    <div class="registration-info">Та и-мэйл хаягаараа бүртгүүлж захиалга хийх боломжтой.</div>
+            
+            
+            <a href="#" rel="nofollow noopener" class="btn wd-switch-to-register" data-login="Нэвтрэх" data-login-title="НЭВТРЭХ" data-reg-title="БҮРТГҮҮЛЭХ" data-register="Бүртгүүлэх">Нэвтрэх</a>
+      
+          </div>
+          
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-cont">
+      <div>
+        <h3>CloudNine</h3>
+      </div>
+      <div class="contact">
+        <p id="bot">
+          Холбоо барих:
+        </p>
+        <ul>
+          <li>7755-2323</li>
+          <li>info@cloudnine.mn</li>
+          <li>Улаанбаатар, Хан-Уул дүүрэг Рэжис Плэйс таур,302 тоот</li>
+          
+          
+        </ul>
+      </div>
+      <div class="need ">
+        <li> <a href="advice.html">Зөвөлгөө</a></li>
+        <li><a href="FAQ.html">Түгээмэл асуулт хариулт</a></li>
+      </div>
+    </div>
+    
+
+    </div>
+  </footer>
+
+
+</body>
+
+
+</html>

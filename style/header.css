@@ -28,6 +28,7 @@
     color:black;
     text-decoration: none;
     padding: 15px;
+    padding-top: 1px;
     display: block;
     text-align: center;
     overflow: hidden;
@@ -81,3 +82,51 @@ input[type="search"], input[type="text"], input[type="password"] {
         width: 80%;
        
       }
+
+        .need {
+                list-style-type: none;
+                padding: 0;
+            }
+            
+            .need li {
+                display: block;
+                margin-right: 10px; 
+            }
+            
+            .need li a {
+                text-decoration: none;
+                color:white; 
+            }
+            
+            .need li a:hover {
+                color: grey
+            }
+
+
+
+
+
+
+
+
+
+    
+            .need {
+              list-style-type: none;
+              padding: 0;
+          }
+          
+          .need li {
+              display: block;
+              margin-right: 10px; 
+          }
+          
+          .need li a {
+              text-decoration: none;
+              color:white; 
+          }
+          
+          .need li a:hover {
+              color: grey
+          }
+ 

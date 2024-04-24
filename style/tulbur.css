@@ -1,0 +1,223 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 24px;
+    background-color: white;
+    height: 1500;
+  }
+  .website_wrapper{
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: white
+  }
+  
+  .header_main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: white
+  }
+  
+  .container {
+    display:block;
+    border-width: 3px;
+    border-color: brown;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .tom-zar {
+    display: flex;
+  }
+  .cover{
+    margin-top: 5%;;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  
+  .header_text{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: bisque;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer{
+    background-color: gray;
+    
+    margin-top: 100px;
+  }
+  
+  .footer-cont{
+    display: flex;
+   
+    margin-right: 0px;
+    height: 100px;
+    background-color: #030303;
+    color:white;
+    padding: 10px;
+  }
+  .contact {
+    margin-left: 100px;
+  }
+  
+  .my_account a {
+    font-size: 18px;
+  }
+  
+  .navigation a {
+    font-size: 18px;
+  }
+  
+  
+  .my_account {
+    display: flex;
+    align-items: center;
+    align-self: right;
+  }
+  
+  .account-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .account {
+    font-size: 20px; 
+    margin-right: 10px; 
+  }
+  
+  .header_erunhii {
+    height: 80px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+    background-color: rgb(183, 170, 170);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+  }
+  
+  .navbar ul {
+      list-style-type: none;
+      background-color:hsl(0, 0%, 25%);
+      padding: 0px; 
+      margin: 0px;
+  
+  }
+  .navbar a{
+      color:black;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+      text-align: center;
+      overflow: hidden;
+  }
+  .navbar a:hover{
+      background-color:  hsl(0, 0%, 50%);
+  
+  }
+  .navbar li{
+      float: left;
+  }
+  .search-input{
+      flex-grow: 1;
+      margin: 0 20px;
+      
+     
+  }
+  input[type="search"], input[type="text"], input[type="password"] {
+      width: 100%;
+      height: 10px;
+      width: 800px;
+      padding: 10px;
+      border: 1px solid #ccc;}
+  
+  
+      .pic {
+      width: 100%;
+      height: 30px;
+  
+      }
+      .cart{
+          width: 30px;
+          height: 30px;
+          display:flex; }
+
+          .my_account a:hover {
+          
+            text-decoration: underline; 
+            color: #555; 
+          }
+          .my_account{
+            width: 80%;
+          }
+    .pay{
+        width: 100%;
+        width: 200px;
+       
+    }
+    .send {
+        background-color: #51b6d7; 
+        border: none;
+        color: white;
+        padding: 15px 32px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px; 
+      }
+      
+      .send:hover {
+        background-color: #245ee3;
+      }
+     .container{
+        margin: 100px;
+    
+    
+     }
+   
+      .pay {
+        height: 100%;
+        height: 200px;
+        width: 100%;
+        width: 500px;
+        background-color: rgb(235, 238, 241);
+        padding: 100px;
+        margin: 50px;
+      }
+      .khaan_bank {
+        list-style: none;
+
+      }
+      .golomt{
+        list-style: none;
+      }

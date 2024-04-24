@@ -1,0 +1,28 @@
+.faq-item {
+    margin-bottom: 15px;
+    border: solid 1px;
+    border-color: #212020;
+  }
+  
+.question {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+  
+.answer {
+    display: none;
+    padding: 10px;
+}
+  
+.faq-item.active .answer {
+    display: block;
+}
+
+.faq {
+    width: 70%;
+    margin: 0 auto;
+}
+.toggle {
+    float: right;
+}

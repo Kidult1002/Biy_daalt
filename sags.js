@@ -1,8 +1,8 @@
-var pricePerItem =54900;
+var pricePerItem = 38900;
 var DeliveryPrice = 5000;
 
-
-  function changeQuantity(change) {
+function changeQuantity(change, event) {
+    event.preventDefault(); 
     var quantityInput = document.getElementById('quantity');
     var currentQuantity = parseInt(quantityInput.value);
     currentQuantity += change;
@@ -12,7 +12,6 @@ var DeliveryPrice = 5000;
     
     var totalPrice = currentQuantity * pricePerItem;
     document.getElementById('totalPrice').textContent = totalPrice.toLocaleString();
-    var LastPrice= totalPrice + DeliveryPrice;
-    document.getElementById('LastPrice').textContent=LastPrice.toLocaleString();
-    
-  }
+    var LastPrice = totalPrice + DeliveryPrice;
+    document.getElementById('LastPrice').textContent = LastPrice.toLocaleString();
+}
