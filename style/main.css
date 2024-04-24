@@ -99,6 +99,7 @@ body {
   display: flex;
   align-items: center;
   align-self: right;
+  margin-left: 150px;
 }
 
 .account-link {
