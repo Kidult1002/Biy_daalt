@@ -9,7 +9,11 @@
   <link rel="stylesheet" href="style\header.css">
   <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="style/page4.css">
-
+  <style>
+    .footer-cont {
+      margin-top: 20px;
+    }
+  </style>
 
   
 </head>
@@ -58,38 +62,38 @@
       <div class="other_pics">
         <table id="table1">
           <tr>
-            <img class="other-images" src="style/images/7-55745-150x188.jpg"  alt="Birch Juice Cleansing Pad1">
+            <img class="other-images" src="style/images/adilhan_shar.jpg"  alt="Birch Juice Cleansing Pad1">
             <br>
           </tr>
           <tr>
-            <img class="other-images" src="style/images/birchjuice pic2.jpg"  alt="Birch Juice Cleansing Pad2">
+            <img class="other-images" src="style/images/chamomile2.png"  alt="Birch Juice Cleansing Pad2">
             <br>
           </tr>
           <tr>
-            <img class="other-images" src="style/images/birchjuice pic3.jpg"  alt="Birch Juice Cleansing Pad2">
+            <img class="other-images" src="style/images/chamomile3.png"  alt="Birch Juice Cleansing Pad2">
             <br>
           </tr>
         </table>
       </div>
-      <div class="p-image">
-        <img class="product-image" src="style/images/7-55745-150x188.jpg"  alt="Birch Juice Cleansing Pad">
+      <div class="p-image" >
+        <img class="product-image" src="style/images/adilhan_shar.jpg"  alt="Chamomile Intense Moustrizer">
       </div>
         <div class="info">
-            <h1>Birch juice cleansing pad</h1>
+            <h1>Chamomile Intense Moisturizing Cream</h1>
           <div class="rating">
             ★★★★★
           </div>
-          <div class="price">
+          <div class="price" id="price">
             <b>54,900₮</b>
           </div>
           <div class="short-description">
-            <p>Энэхүү цэвэрлэгч пад нь хус модны шүүс, гиалуроны хүчил агуулсан тул арьсыг хуурайшуулахгүйгээр арьсан дээрх бохирдлыг сайтар цэвэрлэнэ.</p>
+            <p>Хуурай болон эмзэг арьсыг эрчимтэй чийгшүүлэх үйлчилгээтэй тос.</p>
           </div>
           <div class="elements1"> 
             <div class="quantity-selector">
-              <button id="button1" onclick="changeQuantity(-1)">-</button>
+              <button id="button1" onclick="changeQuantity(-1, event)">-</button>
               <input type="number" id="quantity" name="quantity" value="1" min="0">
-              <button id="button2" onclick="changeQuantity(1)">+</button>
+              <button id="button2" onclick="changeQuantity(1, event)">+</button>
               <a href="cart.html">
                 <button id="add">
                   Сагсанд нэмэх
@@ -99,7 +103,8 @@
           </div>
           <div class="long_description">
             <h5>ТАЙЛБАР</h5>
-            <p>Birch juice буюу хус модны шүүс, гиалуроны хүчлийн найрлага агуулсан энэхүү цэвэрлэгч пад нь нарны тос, нүүр будалт, болон арьсны бохирдлыг сайтар цэвэрлэн давхар чийгшлийг хадгална. Мөн арьсны байгалийн pH түвшинд ойр 5-6 pH түвшинтэй тул арьсны тос, чийгийг тэнцвэрийг хадгална. Падны хөвөн нь 8см том хэмжээтэй тул нүүрийг бүрэн цэвэрлэхэд нэг л хөвөн ашиглахад хангалттай.</p>
+            <p>Энэхүү чийгшүүлэгч тосны найрлагад ‘Chamomile’ буюу балжингарав цэцгийн ханд 54.88% агуулагдсан нь эмзэг арьсыг тайвшруулах, улайлтыг багасгах, батга арилгах, экзем, псориаз зэрэг арьсны өвлөлийг эмчлэхэд тустай байдаг.</p>
+            <p>Найрлагандаа мөн нэмэлтээр Керамид, squalane, arginine, allantoin, пантенол зэргийг агуулсан нь арьсыг чийгшүүлж, тайвшруулах үйлчилгээтэй. Мөн энэхүү байгалийн гаралтай чийгшүүлэгч тосонд арьсанд олон талын ач холбогдолтой evening primrose oil, mango seed butter, наранцэцгийн үрийн тос зэрэг агуулагдсан байдгаараа онцлог юм.</p>
           </div>
         </div>
         
@@ -124,7 +129,7 @@
           </ul>
         </div>
         <div class="need ">
-          <li> <a href="advice.html">Зөвөлгөө</a></li>
+          <li> <a href="advice.html">Зөвлөгөө</a></li>
           <li><a href="FAQ.html">Түгээмэл асуулт хариулт</a></li>
         </div>
       </div>

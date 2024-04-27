@@ -2,7 +2,7 @@ const khaan = document.getElementById("khaan");
 const golomt_bank = document.getElementById("golomt_bank");
 const mySubmit = document.getElementById("mySubmit");
 
-mySubmit.onclick = function() {
+/*mySubmit.onclick = function() {
     let x
     if (khaan.checked) {
        x = khaan.getAttribute('data-href');
@@ -14,4 +14,10 @@ mySubmit.onclick = function() {
     } else {
         alert("Банкаа сонгоно уу?");
     }
+} */
+
+mySubmit.onclick = function() {
+ 
+        alert("Амжилттай төлөгдлөө.");
+    
 }

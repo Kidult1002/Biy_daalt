@@ -96,6 +96,8 @@
 .cart {
 margin-right: 10%;
 }
-
+.prod-name a {
+  text-decoration: none;
+}
  
   
